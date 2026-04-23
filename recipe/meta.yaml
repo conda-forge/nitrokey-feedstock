@@ -1,5 +1,5 @@
 {% set name = "nitrokey" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nitrokey-{{ version }}.tar.gz
-  sha256: 9b7e75a432ccb9969d75b52a273e6bfe58f3fef56af910431a4e31b247371c29
+  sha256: 67207980d65ce47c68859ca973fd7df0f3c1c6a1bd511b1c41f5d8016cecee7f
 
 build:
   noarch: python
@@ -45,7 +45,7 @@ about:
   home: https://github.com/Nitrokey/nitrokey-sdk-py
   summary: Nitrokey Python SDK
   license: Apache-2.0 AND MIT
-  license_file: 
+  license_file:
     - LICENSES/Apache-2.0.txt
     - LICENSES/MIT.txt
 
